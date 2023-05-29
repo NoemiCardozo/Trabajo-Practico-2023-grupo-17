@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bulletprof</title>
   <link rel="stylesheet" href="/css/estilosGenerales.css">
-  <link rel="stylesheet" href="css/mediaQueriesMenu.css">
+  <link rel="stylesheet" href="/css/mediaQueriesMenu.css">
   <link rel="stylesheet" href="/css/contacto.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="shortcut icon" href="/img/logoBulletProfFavicon.png" type="image/x-icon">
@@ -44,7 +44,7 @@
       <br>
       <h5>Envia tu consulta</h5>
       <br>
-      <form class="form" action="./show-data.html">
+      <form class="form" action="./show-data.html" onsubmit="return validarFormulario()">
         <label for="Nombre">Nombre: </label>
         <input placeholder="Ingrese su nombre aqui" type="text" name="Nombre" id="Nombre">
         <label for="Apellido">Apellido: </label>
@@ -82,12 +82,13 @@
     </div> 
     <h2>Síguenos</h2>
     <div class="red_social">
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-facebook-f"></i>
-      <i class="fab fa-instagram"></i>
+      <span><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></span>
+      <span><a href="https://es-la.facebook.com/tienda.deropa.3"><i class="fab fa-facebook-f"></i></a></span>
+      <span><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></span>
     </div>
   </div>
   
+  <script src="/js/validacionDeContacto.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="js/scripts.js"></script>
   <script src="https://kit.fontawesome.com/a5cf2261a4.js" crossorigin="anonymous"></script>

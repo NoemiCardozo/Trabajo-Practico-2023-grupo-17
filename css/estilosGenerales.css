@@ -5,6 +5,7 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  
 }
 
 body { 
@@ -18,7 +19,7 @@ body {
 .navbar {
     background-color: #9dd1c1;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     align-items: center;
   }
 .navbar .logo {
@@ -28,11 +29,11 @@ body {
     grid-column: 2 / 3;
   }
 .navbar .menu {
-    grid-column: 4 / 7;
+    grid-column: 5 / 10;
     display: flex;
   }
 .navbar ul li {
-    margin-right: 3em;
+    margin-right: 6em;
     list-style: none;
   }
 .navbar a {
@@ -47,7 +48,7 @@ body {
     display: none;
   }
 .navbar .shop {
-    grid-column: 8 / 9;
+    grid-column: 11 / 12;
     justify-content: flex-end;
   }
 
@@ -101,3 +102,4 @@ body {
     margin-right: 15px;
     justify-content: flex-end;
 }
+

@@ -69,7 +69,7 @@
 
 
   /*tablet*/
-  @media only screen and (min-width: 640px) and (max-width: 1280px)  {
+  @media only screen and (min-width: 740px) and (max-width: 1280px)  {
 
     .hero .info-tienda{
         color: white;
@@ -90,6 +90,43 @@
         height: 250px;
         width: 380px;
     }
+  }
+
+  @media only screen and (min-width: 1370px) {
+    .hero {
+        height: 83vh;
+        background-image: linear-gradient(rgba(16, 16, 16, .8), rgba(16, 16, 16, .9)), url(/img/logoportada.jpg);
+        background-size: cover;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        position: relative;
+      }
+      
+      .hero .info-tienda {
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .hero .info-tienda .texto-tienda {
+        margin-left: 20px;
+        margin-top: 50px;
+        width: 700px;
+      }
+      
+      .hero .info-tienda .imagen-tienda img {
+        margin-top: 80px;
+        margin-left: 40px;
+        border-radius: 10px;
+        height: 390px;
+        width: 550px;
+      }
+      
+  
   }
 
 
