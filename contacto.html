@@ -45,31 +45,34 @@
       <h5>Envia tu consulta</h5>
       <br>
       <form class="form" action="./show-data.html" onsubmit="return validarFormulario()">
-        <label for="Nombre">Nombre: </label>
-        <input placeholder="Ingrese su nombre aqui" type="text" name="Nombre" id="Nombre">
-        <label for="Apellido">Apellido: </label>
-        <input placeholder="Ingrese su apellido aqui" type="text" name="Apellido" id="Apellido"><br>
-        <br>
-        <label for="Telefono">Telefono:</label>
-        <input placeholder="Ingrese su telefono aqui" type="number" name="Telefono" id="Telefono">
-
+        <label for="Nombre">Nombre:</label>
+        <input placeholder="Ingrese su nombre aquí" type="text" name="Nombre" id="Nombre">
+        <span id="errorNombre" class="error"></span><br>
+    
+        <label for="Apellido">Apellido:</label>
+        <input placeholder="Ingrese su apellido aquí" type="text" name="Apellido" id="Apellido">
+        <span id="errorApellido" class="error"></span><br>
+    
+        <label for="Telefono">Teléfono:</label>
+        <input placeholder="Ingrese su teléfono aquí" type="tel" name="Telefono" id="Telefono">
+        <span id="errorTelefono" class="error"></span><br>
+    
         <label for="mail">Mail:</label>
-        <input placeholder="Ingrese su email aqui" type="email" name="mail" id="mail">
-        
-        
-        <br><br>
+        <input placeholder="Ingrese su email aquí" type="email" name="mail" id="mail">
+        <span id="errorMail" class="error"></span><br>
+    
         <div class="texto_consulta">
-            <label for="consulta" > Consulta</label><br>
+          <label for="consulta">Consulta</label><br>
         </div>
         <div class="textarea">
-            <textarea placeholder="Ingrese su consulta" name="Comentarios" id="" cols="30" rows="10"></textarea><br>
+          <textarea placeholder="Ingrese su consulta" name="Comentarios" id="Comentarios" cols="30" rows="10"></textarea>
+          <span id="errorComentarios" class="error"></span><br>
         </div>
+    
         <div class="boton_enviar">
-            <input type="submit" value="Enviar">
+          <input type="submit" value="Enviar">
         </div>
-        <br>
-
-    </form>
+      </form>
 
     </div>
   </main>

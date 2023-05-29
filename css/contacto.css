@@ -1,64 +1,79 @@
-.hero {
-    height: 83vh;
-    background-image: linear-gradient(rgba(16, 16, 16, .8), rgba(16, 16, 16, .9)) , url(/img/logoportada.jpg);
-    background-size: cover;
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    position: relative;
-}
 
-.hero .info_contacto{
-    text-align: center;
-    background-color: #9dd1c1;
-    width: 550px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 10px;
-    padding: 20px;
-}
+    .hero {
+      height: 83vh;
+      background-image: linear-gradient(rgba(16, 16, 16, .8), rgba(16, 16, 16, .9)) , url(/img/logoportada.jpg);
+      background-size: cover;
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      grid-template-rows: repeat(8, 1fr);
+      position: relative;
+    }
 
-.hero .info_contacto .info_email{
-    margin-top: 10px;
-    display: inline-flex;
-    gap: 10px;
-}
+    .hero .info_contacto {
+      text-align: center;
+      background-color: #9dd1c1;
+      width: 550px;
+      position: absolute;
+      margin-top: 275px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 10px;
+      padding: 5px;
+    }
 
-.hero .info_contacto .info_whatsapp{
-    margin-top: 10px;
-    margin-left: 40px;
-    display: inline-flex;
-    gap: 5px;
-}
+    .hero .info_contacto .info_email {
+      margin-top: 5px;
+      display: inline-flex;
+      gap: 10px;
+    }
 
-.hero .info_contacto h5{
-    margin-top: 20px;
-}
+    .hero .info_contacto .info_whatsapp {
+      margin-top: 5px;
+      margin-left: 40px;
+      display: inline-flex;
+      gap: 5px;
+    }
 
-.hero .info_contacto .texto_consulta{
-    text-align: center;
-}
+    .hero .info_contacto h5 {
+      margin-top: 10px;
+    }
 
-.hero .info_contacto .textarea{
-    text-align: center;
-}
 
-.hero .info_contacto .boton_enviar{
-    text-align: center;   
-}
 
-.hero .info_contacto .boton_enviar input{
-    color: black;
-    cursor: pointer;
-    padding: 4px;
-    border-radius: 15px;
-    border-color: black ;
-    border-width: 3px;
-    background-color: #9dd1c1;
-}
+    .hero .info_contacto .texto_consulta {
+    margin-top: -20px;
+      text-align: center;
+    }
+
+    .hero .info_contacto .textarea {
+      text-align: center;
+    }
+
+    .hero .info_contacto .boton_enviar {
+      margin-top: -10px;
+      text-align: center;   
+    }
+
+    .hero .info_contacto .boton_enviar input {
+      margin-top: -5px;
+      color: black;
+      cursor: pointer;
+      padding: 4px;
+      border-radius: 15px;
+      border-color: black;
+      border-width: 3px;
+      background-color: #9dd1c1;
+    }
+
+    .error {
+    
+      display: block;
+      color: red;
+    }
+  
+
+  
 
   
 
